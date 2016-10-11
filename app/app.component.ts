@@ -1,23 +1,8 @@
 import {Component, OnInit} from '@angular/core';
-import * as spinner from './spinners';
 
 @Component({
   moduleId: module.id,
   selector: 'app',
-  directives: [
-    spinner.RotatingPlaneComponent,
-    spinner.DoubleBounceComponent,
-    spinner.WaveComponent,
-    spinner.WanderingCubesComponent,
-    spinner.PulseComponent,
-    spinner.ChasingDotsComponent,
-    spinner.CircleComponent,
-    spinner.ThreeBounceComponent,
-    spinner.CubeGridComponent,
-    spinner.WordPressComponent,
-    spinner.FadingCircleComponent,
-    spinner.FoldingCubeComponent
-  ],
   styles: [`
     .wrapper {
       width: 480px;

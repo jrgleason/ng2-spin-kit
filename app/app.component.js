@@ -9,7 +9,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var spinner = require('./spinners');
 var AppComponent = (function () {
     function AppComponent() {
     }
@@ -20,20 +19,6 @@ var AppComponent = (function () {
         core_1.Component({
             moduleId: module.id,
             selector: 'app',
-            directives: [
-                spinner.RotatingPlaneComponent,
-                spinner.DoubleBounceComponent,
-                spinner.WaveComponent,
-                spinner.WanderingCubesComponent,
-                spinner.PulseComponent,
-                spinner.ChasingDotsComponent,
-                spinner.CircleComponent,
-                spinner.ThreeBounceComponent,
-                spinner.CubeGridComponent,
-                spinner.WordPressComponent,
-                spinner.FadingCircleComponent,
-                spinner.FoldingCubeComponent
-            ],
             styles: ["\n    .wrapper {\n      width: 480px;\n      margin: 0 auto;\n      text-align: center;\n    }\n    \n    h1 {\n      margin-bottom: 15px;\n      padding-bottom: 15px;\n      border-bottom: 1px dashed #333;\n    }\n    \n    h3 {\n      margin-bottom: 15px;\n    }\n  "],
             template: "\n    <div class=\"wrapper\">\n      <h1>ng2-spin-kit</h1>\n    \n      <h3>rotating-plane</h3>\n      <sk-rotating-plane></sk-rotating-plane>\n    \n      <h3>double-bounce</h3>\n      <sk-double-bounce></sk-double-bounce>\n    \n      <h3>wave</h3>\n      <sk-wave></sk-wave>\n    \n      <h3>wandering-cubes</h3>\n      <sk-wandering-cubes></sk-wandering-cubes>\n    \n      <h3>pulse</h3>\n      <sk-pulse></sk-pulse>\n    \n      <h3>chasing-dots</h3>\n      <sk-chasing-dots></sk-chasing-dots>\n    \n      <h3>circle</h3>\n      <sk-circle></sk-circle>\n    \n      <h3>three-bounce</h3>\n      <sk-three-bounce></sk-three-bounce>\n    \n      <h3>cube-grid</h3>\n      <sk-cube-grid></sk-cube-grid>\n    \n      <h3>word-press</h3>\n      <sk-word-press></sk-word-press>\n    \n      <h3>fading-circle</h3>\n      <sk-fading-circle></sk-fading-circle>\n    \n      <h3>folding-cube</h3>\n      <sk-folding-cube></sk-folding-cube>\n    </div>\n  "
         }), 
